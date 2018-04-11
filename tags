@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_2_POW_N	memoryAllocater.h	9;"	d
+META_SIZE	memoryAllocater.h	26;"	d
+MYSTRING	main_bk.c	3;"	d	file:
+MYSTRING	memoryAllocater.h	8;"	d
+__DEBUGMAGIC	memoryAllocater.h	3;"	d
+__DEBUGMAGIC	memoryAllocater.h	5;"	d
+align_size	memoryAllocater.c	/^size_t align_size(size_t size)$/;"	f
+block	memoryAllocater.h	/^  struct block_meta *block;$/;"	m	struct:block_free	typeref:struct:block_free::block_meta
+block_free	memoryAllocater.h	/^struct block_free {$/;"	s
+block_meta	memoryAllocater.h	/^struct block_meta {$/;"	s
+change_to_2_power_n	memoryAllocater.c	/^size_t change_to_2_power_n(size_t value)$/;"	f
+find_free_block	memoryAllocater.c	/^struct block_meta *find_free_block(size_t size)$/;"	f
+find_free_block_from_list	memoryAllocater.c	/^struct block_meta *find_free_block_from_list(size_t size)$/;"	f
+free	memoryAllocater.h	/^  int free;$/;"	m	struct:block_meta
+free_ptr	memoryAllocater.h	/^  struct block_free *free_ptr;		\/\/Used in case of merging$/;"	m	struct:block_meta	typeref:struct:block_meta::block_free
+get_block_ptr	memoryAllocater.c	/^struct block_meta *get_block_ptr(void *ptr) {$/;"	f
+global_base	memoryAllocater.h	/^void *global_base = NULL;$/;"	v
+global_end	memoryAllocater.h	/^void *global_end = NULL;$/;"	v
+global_free_base	memoryAllocater.h	/^void *global_free_base = NULL;$/;"	v
+global_free_end	memoryAllocater.h	/^void *global_free_end = NULL;$/;"	v
+main	main_bk.c	/^void main()$/;"	f
+main	memoryAllocater.c	/^void main()$/;"	f
+main1	memoryAllocater.c	/^void main1()$/;"	f
+merge_free_block	memoryAllocater.c	/^int merge_free_block(struct block_meta* block_ptr)$/;"	f
+mycalloc	memoryAllocater.c	/^void *mycalloc(size_t nelem, size_t elsize) {$/;"	f
+myfree	memoryAllocater.c	/^void myfree(void *ptr)$/;"	f
+mymalloc	memoryAllocater.c	/^void *mymalloc(size_t size) $/;"	f
+myprint	main_bk.c	/^void myprint()$/;"	f
+myprint	memoryAllocater.c	/^void myprint()$/;"	f
+myrealloc	memoryAllocater.c	/^void *myrealloc(void *ptr, size_t size) {$/;"	f
+next	memoryAllocater.h	/^  struct block_free *next;$/;"	m	struct:block_free	typeref:struct:block_free::block_free
+next	memoryAllocater.h	/^  struct block_meta *next;$/;"	m	struct:block_meta	typeref:struct:block_meta::block_meta
+prev	memoryAllocater.h	/^  struct block_free *prev;$/;"	m	struct:block_free	typeref:struct:block_free::block_free
+prev	memoryAllocater.h	/^  struct block_meta *prev;$/;"	m	struct:block_meta	typeref:struct:block_meta::block_meta
+print_free_blk	memoryAllocater.c	/^void print_free_blk()$/;"	f
+print_meta_blk	memoryAllocater.c	/^void print_meta_blk()$/;"	f
+request_space	memoryAllocater.c	/^struct block_meta *request_space(size_t size)$/;"	f
+size	memoryAllocater.h	/^  size_t size;$/;"	m	struct:block_meta
+split_block	memoryAllocater.c	/^void split_block(struct block_meta* current, size_t size)$/;"	f
