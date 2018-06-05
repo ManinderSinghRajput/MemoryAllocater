@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <string.h>
 
-#include "main.h"
+#include "memoryAllocater.h"
 
 void main1()
 {
